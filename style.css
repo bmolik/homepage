@@ -1,0 +1,39 @@
+body {
+    background: lightskyblue;
+}
+
+section {
+    background: lightcyan;
+}
+
+h1 {
+    color: rgb(22, 49, 172);
+}
+
+p {
+    color: #211ec7;
+}
+
+h2 {
+    color: #0f1cd8;
+}
+
+h3 {
+    color: #090f68;
+}
+
+.special-header {
+    color: navy;
+}
+
+#top {
+    background: rgb(91, 185, 243);
+}
+
+nav a {
+    color: navy;
+}
+
+a {
+    color: #70590d;
+}
