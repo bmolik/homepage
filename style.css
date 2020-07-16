@@ -2,6 +2,11 @@ body {
     background: lightskyblue;
 }
 
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 section {
     background: lightcyan;
 }
@@ -22,18 +27,50 @@ h3 {
     color: #090f68;
 }
 
-.special-header {
+.section__header {
     color: navy;
 }
 
 #top {
     background: rgb(91, 185, 243);
-}
-
-nav a {
-    color: navy;
+    margin-top: 10px;
+    overflow: hidden;
 }
 
 a {
     color: #70590d;
+}
+
+.header {
+    background: rgb(88, 178, 235);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.navigation {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.navigation__link {
+    color: navy;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation__link--homepage {
+    background: navy;
+    color: white;
+    margin-left: 20px;
+}
+
+.footer {
+    background: rgb(88, 178, 235);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.footer__content {
+    width: 660px;
+    margin: 0 auto;
 }

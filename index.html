@@ -10,18 +10,18 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Strona Rodziny</a>
-            <a href="boats.html">Nasze łodzie</a>
-            <a href="tips.html">Porady</a>
+    <header class="header">
+        <nav class="navigation">
+            <a class="navigation__link navigation__link--homepage" href="index.html">Strona Rodziny</a>
+            <a class="navigation__link" href=" boats.html ">Nasze łodzie</a>
+            <a class="navigation__link" href="tips.html">Porady</a>
 
         </nav>
     </header>
-    <main>
+    <main class="main">
         <header id="top">
             <h1>My Rodzina - Strona domowa</h1>
-            <img src="img/ship.jpg" alt="Statek latarnia ocean" />
+            <img class="image" src="img/ship.jpg" alt="Statek latarnia ocean" />
 
         </header>
         <section>
@@ -30,13 +30,13 @@
                 <br/>I jeszcze wrzuciliśmy to do GIT-a.</p>
         </section>
         <section>
-            <h2 class="hotpink-header">Notatki z WTF: Co ten frontend</h2>
+            <h2 class="section__header">Notatki z WTF: Co ten frontend</h2>
             <article>
-                <h3 class="special-header"> Jak stworzyć prawidłowego HTML-a?</h3>
+                <h3 class="section__header"> Jak stworzyć prawidłowego HTML-a?</h3>
                 <p>Nie wiem, ale po tym szkoleniu pewno się dowiem. Hehehehehe.</p>
             </article>
             <article>
-                <h3 class="special-header">Czy zwrot przez rufę to prosta sprawa?</h3>
+                <h3 class="section__header">Czy zwrot przez rufę to prosta sprawa?</h3>
                 <p>Nie zawsze. Trzeba pamiętać, że bom przeleci Ci prosto przed ryjem (o ile zdążysz wykonać unik - inaczej <em>przypierdoli</em> Ci w mordę), ale w sumie czasem ratuje dupsko przed wpadnięciem w trzcinę, którą wichura zaledwie tylko kołysze.
                 </p>
             </article>
@@ -46,8 +46,10 @@
 
     </main>
 
-    <footer>Strona domowa Nasza, ale Żab i tak powie, że jego. Chyba że będzie brzydka, to nie. <a href="#top">Przejdz do gory</a>
+    <footer class="footer">
+        <p class="footer__content">Strona domowa Nasza, ale Żab i tak powie, że jego. Chyba że będzie brzydka, to nie. <a href="#top">Przejdz do gory</a></p>
     </footer>
+
     <script src="main.js"></script>
 
 </body>
